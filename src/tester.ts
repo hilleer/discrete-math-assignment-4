@@ -15,16 +15,16 @@ console.log('Get state: ', entry.state);
 
 
 entry.systemId = systemId + '-new';
-console.log('get sys id: ', entry.systemId);
+console.log('Get sys id: ', entry.systemId);
 
 entry.instanceId = instanceId + '-new';
-console.log('get instance id: ', entry.instanceId);
+console.log('Get instance id: ', entry.instanceId);
 
-// entry.actiondId = actionId + '-new';
-// console.log('Get action id: ', entry.actiondId);
+entry.actiondId = actionId + '-new';
+console.log('Get action id: ', entry.actiondId);
 
 entry.timestamp = new Date();
 console.log('Get date: ', entry.timestamp);
 
-entry.level = '1';
-console.log('get level: ', entry.level);
+entry.level = level;
+console.log('Get level: ', entry.level);

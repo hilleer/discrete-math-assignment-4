@@ -44,7 +44,7 @@ export class LogEntry implements InterfaceLogEntry {
 		return this.entryActionId;
 	}
 
-	set actionId(actiondId: string) {
+	set actiondId(actiondId: string) {
 		this.entryActionId = actiondId;
 	}
 
